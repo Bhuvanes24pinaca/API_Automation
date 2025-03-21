@@ -1,0 +1,12 @@
+03/19/2025 05:44:11 PM - INFO - Processing URL: https://platform.test.pinacagroup.internal/api/auth/login
+03/19/2025 05:44:12 PM - INFO - Url Name: login
+03/19/2025 05:44:12 PM - INFO - Payload Name: payload1
+03/19/2025 05:44:12 PM - INFO - Request Method: POST | URL: https://platform.test.pinacagroup.internal/api/auth/login | Payload: {'username': 'Testadmin', 'password': 'Test@1234'}
+03/19/2025 05:44:12 PM - INFO - Actual Status Code: 200
+03/19/2025 05:44:12 PM - INFO - Response Body: {'userId': 716, 'userSessionId': 7709, 'accessToken': 'eyJhbGciOiJSUzI1NiJ9.eyJvcmdhbml6YXRpb25JZCI6MSwic3ViIjoiNzE2Iiwicm9sZSI6IlNVUEVSQURNSU4iLCJwZXJtaXNzaW9ucyI6WyJnZXQgZG9jdW1lbnQgZmlsdGVycyJdLCJpc3MiOiJBRyIsImV4cCI6MTc0MjM4NzA1MiwidXNlclNlc3Npb25JZCI6NzcwOSwiaWF0IjoxNzQyMzg2NDUyfQ.ZejjWF7skqbRzvPr0nZ87Z_IahzXzV2LCPg9OUs_NfTzxJfxV9zCyN3XKXXVtpIhxa2M9mYaIwTVujU-VHPG1xECppt1iDL_w4Y7euMeVp3LO5uPaVKwr7YxqWQiYBmeMZGsPvqErmXY58vR-BoBLaam5juZ_tq6PMqSZwI4cL574mFtZtij8QzjNTMndehLWkNdo67QeYSApvJbTd19dxZU9y5snrAENlPQqSC8NWfy1wV3cmsmOHGMjptObjBgSfVDPYRJoYDYFRA5R28OT0JXNNR6EgGtkRYHDG13MOYgqEKB6MOjJ5mYgKOSUJjnBCGwYfid_u8xFf7lWIEF9w', 'email': 'vinoth@saptanglabs.com', 'UserMFA': 'email', 'OrganizationMFA': 'none', 'userRole': 'SUPERADMIN', 'userName': 'Testadmin', 'firstName': 'John', 'lastName': 'Doe', 'passwordExpiryWarning': True, 'mfaRequired': False, 'userMFAEnabled': True, 'organizationId': 1, 'permissions': ['get document filters']}
+03/19/2025 05:44:12 PM - INFO - Access Token retrieved successfully.
+03/19/2025 05:44:12 PM - INFO - Url Name: login
+03/19/2025 05:44:12 PM - INFO - Payload Name: payload1
+03/19/2025 05:44:12 PM - INFO - Request Method: GET | URL: https://platform.test.pinacagroup.internal/api/auth/login | Payload: {'username': 'Testadmin', 'password': 'Test@1234'}
+03/19/2025 05:44:12 PM - INFO - Actual Status Code: 500
+03/19/2025 05:44:12 PM - INFO - Response Body: {'message': "Request method 'GET' is not supported", 'timestamp': '2025-03-19T12:14:12.511729123'}
